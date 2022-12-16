@@ -319,3 +319,86 @@ header {
 }
 
 /*--------END APP FEATURES section---------*/
+
+/*--------SECTION TESTEMONIALS---------*/
+
+.section-testemonials {
+  background-color: #e3eef8;
+}
+
+.section-testemonials .container {
+  padding-top: 158px;
+}
+
+.wrapper-testemonials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-block-testemonials {
+  width: 349px;
+  padding-top: 154px;
+}
+
+.text-block-testemonials .section-description {
+  width: 315px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-rows: 303px 303px;
+  grid-template-columns: 350px 350px;
+  grid-gap: 30px;
+}
+
+.card-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  color: #1f1f1f;
+  line-height: 32px;
+  letter-spacing: -0.1px;
+  font-weight: 400;
+}
+
+.card-person {
+  display: flex;
+}
+
+.avatar {
+  margin-right: 22px;
+}
+
+.name {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.occupation {
+  color: #666;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.wrapper-testemonials {
+  padding-bottom: 122px;
+}
+
+.logos {
+  filter: saturate(0%);
+  margin-bottom: 131px;
+}
+
+.clients-imgs img {
+  width: 100%;
+}
+
+/*--------END SECTION TESTEMONIALS---------*/

@@ -205,3 +205,54 @@ header {
 .feature-icon {
   width: 30px;
 }
+
+/*-------END HEADER-------*/
+
+/*--------GET STARTED-section-------*/
+
+.wrapper-get-started {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.get-started-section {
+  background-color: #258aff;
+  padding: 70px 0;
+}
+
+.text-block,
+.img-block {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-block img {
+  width: 100%;
+}
+
+.get-started-section h3 {
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2.81px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 49px;
+}
+
+.get-started-btn {
+  margin-top: 51px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+  color: #258aff;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 20px 60px;
+}
+
+/*--------END GET STARTED section-------*/

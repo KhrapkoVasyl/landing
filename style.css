@@ -208,7 +208,7 @@ header {
 
 /*-------END HEADER-------*/
 
-/*--------GET STARTED-section-------*/
+/*--------GET STARTED section-------*/
 
 .wrapper-get-started {
   display: flex;
@@ -256,3 +256,66 @@ header {
 }
 
 /*--------END GET STARTED section-------*/
+
+/*------APP FEATURES section--------*/
+.app-features-section {
+  background-color: #e3eef8;
+}
+
+.wrapper-app-features {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 80px 0;
+}
+
+.wrapper-app-features .img-block {
+  flex: auto;
+}
+
+.app-features-section-title {
+  color: #1f1f1f;
+}
+
+.app-features-section-description {
+  color: #666;
+  margin-bottom: 95px;
+}
+
+.wrapper-app-features-section-feature {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-title {
+  font-size: 21px;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 13px;
+}
+
+.app-features-section-icon {
+  margin-bottom: 32px;
+}
+
+.feature-description {
+  color: #666;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+#feature-1 {
+  margin-right: 100px;
+}
+
+.text-block-app-features-section {
+  padding-top: 0;
+}
+
+.app-features-section .container {
+  border-bottom: 1px solid #fff;
+}
+
+/*--------END APP FEATURES section---------*/

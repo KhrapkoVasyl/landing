@@ -7,3 +7,33 @@
 body {
   font-family: 'Karla', sans-serif;
 }
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -2.53px;
+  margin-bottom: 16px;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #e4e4e4;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.mini-title {
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2.81px;
+  text-transform: uppercase;
+  color: #258aff;
+  margin-bottom: 49px;
+}

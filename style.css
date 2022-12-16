@@ -37,3 +37,171 @@ body {
   color: #258aff;
   margin-bottom: 49px;
 }
+
+/*-------HEADER-------*/
+
+header {
+  padding-top: 39px;
+  background-color: #e3eef8;
+}
+
+.wrapper-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: 60px;
+  align-self: center;
+}
+
+.nav-links {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  padding-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.navigation li {
+  margin-right: 35px;
+}
+
+.navigation li a:link,
+.navigation li a:visited {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+.btn-nav-start {
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid #258aff;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 3px;
+}
+
+.btn-nav-start:link,
+.btn-nav-start:visited {
+  color: #258aff;
+}
+
+.hero {
+  padding-top: 188px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 614px;
+  width: 100%;
+}
+
+.hero h2 {
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2.81px;
+  text-transform: uppercase;
+  color: #666666;
+  margin-bottom: 27px;
+}
+
+.hero h1 {
+  color: #1f1f1f;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -4px;
+  margin-bottom: 19px;
+}
+
+.fisrt-paragraph {
+  font-weight: 400;
+  font-size: 21px;
+  color: #666666;
+  line-height: 36px;
+  max-width: 555px;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: -0.4px;
+  padding-bottom: 31px;
+}
+
+.form-email {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-width: 493px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.form-email input {
+  font-family: 'Karla', sans-serif;
+  padding: 18px 24px 18px 24px;
+  height: 60px;
+  border: none;
+  border-radius: 3px;
+  outline: transparent;
+}
+
+.input-email {
+  width: 275px;
+  font-size: 18px;
+  color: #878b90;
+  font-weight: 400;
+}
+
+.btn-send {
+  background-color: #fc593b;
+  width: 209px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.trusted-number {
+  font-size: 17px;
+  color: #878b90;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  margin-bottom: 157px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+  padding-bottom: 140px;
+}
+
+.feature {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.feature h3 {
+  color: #000;
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.feature p {
+  font-size: 17px;
+  color: #878b90;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+}
+
+.feature-icon {
+  width: 30px;
+}

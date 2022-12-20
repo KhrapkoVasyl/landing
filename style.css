@@ -79,6 +79,82 @@ header {
   text-decoration: none;
 }
 
+.nav-mobile {
+  position: fixed;
+  display: none;
+  top: 0;
+  right: -100%;
+  box-shadow: -10px 0 20px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  width: 200px;
+  height: 100vh;
+  padding: 80px 20px;
+  z-index: 1000;
+}
+
+.nav-mobile-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-mobile.active {
+  right: 0;
+}
+
+.nav-mobile .navigation {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-mobile .navigation li {
+  padding: 10px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.hamburger-btn {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border: 2px solid #258aff;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  cursor: pointer;
+  position: fixed;
+  z-index: 1001;
+}
+
+.hamburger-btn.active .hamburger-btn-bar:nth-child(3) {
+  display: none;
+}
+
+.hamburger-btn.active .hamburger-btn-bar {
+  transform-origin: center;
+  position: absolute;
+  width: 60%;
+}
+
+.hamburger-btn.active .hamburger-btn-bar:nth-child(1) {
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%) rotate(45deg);
+}
+
+.hamburger-btn.active .hamburger-btn-bar:nth-child(2) {
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%) rotate(-45deg);
+}
+
+.hamburger-btn .hamburger-btn-bar {
+  height: 2px;
+  width: 100%;
+  background-color: #258aff;
+}
+
 .btn-nav-start {
   text-align: center;
   font-size: 16px;
@@ -321,7 +397,6 @@ header {
 /*--------END APP FEATURES section---------*/
 
 /*--------SECTION TESTEMONIALS---------*/
-
 .section-testemonials {
   background-color: #e3eef8;
 }
@@ -609,3 +684,154 @@ footer {
 }
 
 /*--------END FOOTER----------*/
+
+/*--------RESPONSIVE DESIGN OF PAGE----------*/
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  .wrapper-get-started .img-block {
+    flex: 50%;
+  }
+
+  .wrapper-get-started .img-block img {
+    width: 100%;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .card {
+    gap: 20px;
+  }
+
+  .wrapper-testemonials {
+    flex-direction: column;
+  }
+
+  .text-block-testemonials {
+    padding-top: 0;
+  }
+
+  .text-block-testemonials,
+  .text-block-testemonials .section-description {
+    width: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .features {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .feature {
+    justify-content: center;
+  }
+
+  .wrapper-get-started,
+  .wrapper-app-features {
+    flex-direction: column;
+  }
+
+  .wrapper-get-started .img-block,
+  .wrapper-app-features .img-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .wrapper-get-started .img-block img,
+  .wrapper-app-features .img-block img {
+    width: 50%;
+  }
+
+  .wrapper-app-features-section-feature {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .app-features-section-description {
+    margin-bottom: 40px;
+  }
+
+  .wrapper-footer {
+    flex-direction: column;
+  }
+
+  .links-block {
+    width: auto;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  footer {
+    padding: 60px 0;
+  }
+
+  .wrapper-nav .navigation,
+  .nav-links .btn-nav-start {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: block;
+  }
+
+  .hamburger-btn {
+    display: flex;
+  }
+
+  .wrapper-nav .nav-links {
+    justify-content: end;
+  }
+}
+
+@media (max-width: 800px) {
+  .pricing-cards {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: auto;
+  }
+
+  .section-price {
+    padding: 70px 0;
+  }
+
+  .section-price-headings {
+    width: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .trusted-number {
+    margin-bottom: 80px;
+  }
+
+  .hero {
+    padding-top: 130px;
+  }
+
+  .form-email {
+    flex-direction: column;
+  }
+
+  .form-email input {
+    width: auto;
+    flex: 1;
+  }
+
+  .wrapper-get-started .text-block h3 {
+    margin-bottom: 20px;
+  }
+
+  .clients-imgs img {
+    margin-bottom: 60px;
+  }
+}
+
+/*--------END RESPONSIVE DESIGN OF PAGE----------*/

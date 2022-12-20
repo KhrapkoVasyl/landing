@@ -402,3 +402,137 @@ header {
 }
 
 /*--------END SECTION TESTEMONIALS---------*/
+
+/*----------SECTION PRICE--------*/
+.section-price {
+  background-image: url(img/prices-back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 137px;
+  color: #fff;
+  padding-bottom: 137px;
+}
+
+.section-price-headings {
+  text-align: center;
+  width: 611px;
+  margin: 0 auto 0 auto;
+  margin-bottom: 93px;
+}
+
+.mini-title-price {
+  color: #fff;
+}
+
+.pricing-cards {
+  display: flex;
+  width: 730px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.pricing-card {
+  max-width: 350px;
+  width: 100%;
+  background-color: #2b405a;
+  border-radius: 6px;
+  padding: 29px 35px 29px 45px;
+}
+
+.type {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.popular {
+  background-color: #4eab08;
+  padding: 5px 15px;
+  border-radius: 13px;
+  color: #fff;
+}
+
+.cost .value {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.cost .sign {
+  font-weight: 700;
+  font-size: 30px;
+  display: inline-block;
+  margin-top: 5px;
+  vertical-align: top;
+}
+
+.cost {
+  padding-bottom: 4px;
+}
+
+.card-description {
+  width: 229px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-bottom: 26px;
+}
+
+.plan-features {
+  list-style: none;
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 38px;
+}
+
+.plan-features li {
+  margin-bottom: 7px;
+  line-height: 32px;
+}
+
+.plan-features li i {
+  margin-right: 10px;
+}
+
+.start-trial-btn {
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px 40px 14px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  line-height: 21px;
+  background-color: #258aff;
+  margin-bottom: 5px;
+}
+
+.credit-info {
+  font-size: 14px;
+  font-weight: 400;
+  color: #878b90;
+  line-height: 28px;
+}
+
+.card-pro {
+  background-color: #fff;
+  color: #000;
+}
+
+.card-pro .card-description {
+  color: #666;
+}
+
+.btn-pro {
+  background-color: #fc593b;
+}
+
+.card-basic .popular {
+  opacity: 0;
+}
+
+/*----------END SECTION PRICE--------*/
